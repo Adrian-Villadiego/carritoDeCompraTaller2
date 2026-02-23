@@ -30,17 +30,17 @@ const Props = () => {
       <div className="row justify-content-center gap-5">
         <Avatar
           nombre="Maquiavelo"
-          imagen="/img/maquiavelo.jpg"
+          imagen={`${import.meta.env.BASE_URL}img/maquiavelo.jpg`}
         />
 
         <Avatar
           nombre="Nagi"
-          imagen="/img/nagi.jpg"
+          imagen={`${import.meta.env.BASE_URL}img/nagi.jpg`}
         />
 
         <Avatar
           nombre="react"
-          imagen="/img/fotoreact.jpg"
+          imagen={`${import.meta.env.BASE_URL}img/fotoreact.jpg`}
         />
       </div>
     </div>
